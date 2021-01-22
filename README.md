@@ -1,5 +1,9 @@
 # beat-saber-stretching
 
+Project to run all stretchings adviced by [Dr. Levi](https://youtu.be/IoL1NOKUmoU) to avoid injuries when playing Beat Saber
+
+
+
 ## Project setup
 ```
 npm install
