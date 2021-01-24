@@ -1,113 +1,90 @@
 export const exercisesData = [
   {
-    title: "left wrist down hold with hand",
-    description: "",
-    timer: 30
+    title: "Wrist down with hand",
+    description:
+      "Place your hand, arm up in front of you and hold you it in the wanted direction with your other hand.",
+    variations: [
+      "left wrist down",
+      "left wrist up",
+      "right wrist down",
+      "right wrist up"
+    ],
+    timer: 30,
+    category: "wrist"
   },
   {
-    title: "left wrist up hold with hand",
-    description: "",
-    timer: 30
+    title: "Shoulder accross and hold",
+    description:
+      "Place you arm up in front of you and then tilt it to the opposite side close to your other shoulder. Hold it with your other arm.",
+    variations: ["left shoulder", "right shoulder"],
+    timer: 30,
+    category: "shoulder"
   },
   {
-    title: "right wrist down hold with hand",
-    description: "",
-    timer: 30
+    title: "Around the world",
+    description: "Extend both your arms and move them in big circles.",
+    variations: ["front to back", "back to front"],
+    timer: 30,
+    category: "shoulder"
   },
   {
-    title: "right wrist up hold with hand",
-    description: "",
-    timer: 30
+    title: "Extended arm small circles",
+    description:
+      "Extend your arm to the side at shoulder height and do small circles.",
+    variations: [
+      "left arm counter-clock wise",
+      "left arm clock wise",
+      "right arm counter-clock wise",
+      "right arm clock wise"
+    ],
+    timer: 20,
+    category: "shoulder"
   },
   {
-    title: "left shoulder accross and hold",
-    description: "",
-    timer: 30
+    title: "Elbow up and hold back",
+    description:
+      "Place your hand on your shoulder and lift your elbow to shoulder height in front of you. Continue lifting you elbow with your opposite hand.",
+    variations: ["left elbow", "right elbow"],
+    timer: 25,
+    category: "shoulder"
   },
   {
-    title: "right shoulder accross and hold",
-    description: "",
-    timer: 30
+    title: "Arm up and down",
+    description:
+      "Extend your arm in front of you at shoulder height. Then move it down and up alternatively.",
+    variations: ["left arm", "right arm"],
+    timer: 20,
+    category: "shoulder"
   },
   {
-    title: "around the world with arms from front to back",
-    description: "",
-    timer: 30
+    title: "Wrist mini circles",
+    description:
+      "Extend your arms in front of you, place your hands up, as if holding a wall, and then move them in small circles with your wrists.",
+    variations: ["wrists up - out - down", "wrists up - out - in"],
+    timer: 20,
+    category: "wrist"
   },
   {
-    title: "around the world with arms from back to front",
-    description: "",
-    timer: 30
+    title: "Shake your body",
+    description:
+      "Bend your knees slightly and just shake hands, body, and shoulders.",
+    variations: ["move it"],
+    timer: 30,
+    category: "body"
   },
   {
-    title: "small circles around counter-clock wise left arm",
-    description: "",
-    timer: 20
+    title: "Rolling shoulders",
+    description: "With relaxed arms, make circles with your shoulders.",
+    variations: ["moving backwards", "moving forwards"],
+    timer: 20,
+    category: "shoulder"
   },
   {
-    title: "small circles around clock wise left arm",
-    description: "",
-    timer: 20
-  },
-  {
-    title: "small circles around counter-clock wise right arm",
-    description: "",
-    timer: 20
-  },
-  {
-    title: "small circles around clock wise right arm",
-    description: "",
-    timer: 20
-  },
-  {
-    title: "left elbow up and hold back",
-    description: "",
-    timer: 25
-  },
-  {
-    title: "right elbow up and hold back",
-    description: "",
-    timer: 25
-  },
-  {
-    title: "left arm up and down",
-    description: "",
-    timer: 20
-  },
-  {
-    title: "right arm up and down",
-    description: "",
-    timer: 20
-  },
-  {
-    title: "wrist out - down - up and back mini half-circles",
-    description: "",
-    timer: 20
-  },
-  {
-    title: "wrist out - up - in and back mini half-circles",
-    description: "",
-    timer: 20
-  },
-  {
-    title:
-      "shake your body (bend knees slightly and just shake hands, body, shoulders)",
-    description: "",
-    timer: 30
-  },
-  {
-    title: "rolling shoulders and arms back",
-    description: "",
-    timer: 20
-  },
-  {
-    title: "rolling shoulders and arms forward",
-    description: "",
-    timer: 20
-  },
-  {
-    title: "side and up and then up out (with arms as an L)",
-    description: "",
-    timer: 30
+    title: "Butterfly",
+    description:
+      'With your arms in an "L" form move them from your side (close to your body) to up (elbows at shoulder height) and then up to out (extend your arms in front of you to the opposite side)',
+    variations: ["just do it"],
+    timer: 30,
+    category: "shoulder"
   }
 ];

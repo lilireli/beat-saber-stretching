@@ -1,12 +1,12 @@
 <template>
-  <div id="app">
-    <h1 class="title">
-      <span class="red">Beat</span> <span class="blue">Saber</span> Stretching
+  <div id="app" class="flex flex-col bg-gray-200 text-gray-800">
+    <h1 class="title bg-gray-700 pt-1 pl-2 h-16">
+      <span class="text-red-600">Beat</span>
+      <span class="text-blue-600">Saber </span>
+      <span class="text-gray-200">Stretching</span>
     </h1>
 
-    To do everyday, to train wrist and shoulder.
-
-    <Trainer />
+    <Trainer class="flex-grow" />
   </div>
 </template>
 
@@ -29,17 +29,14 @@ export default {
     url("~@/assets/fonts/NeonTubes2.otf") format("truetype");
 }
 
-$background: #ffffff; //#2c3e50;
-$text: #424141;
-
+html,
+body,
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: grey;
-  background-color: $background;
-  margin-top: 20px;
+  @apply h-full w-full;
 }
 
 div.paginated-el {
@@ -55,14 +52,5 @@ h1.title {
   font-size: 50px;
   text-transform: none;
   text-align: left;
-  margin-left: 20px;
-}
-
-span.red {
-  color: red;
-}
-
-span.blue {
-  color: blue;
 }
 </style>
