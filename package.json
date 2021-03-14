@@ -14,10 +14,11 @@
     "@tailwindcss/postcss7-compat": "^2.0.2",
     "autoprefixer": "^9.8.6",
     "bootstrap-vue": "^2.21.2",
+    "chokidar-cli": "^2.1.0",
     "core-js": "^3.6.5",
     "postcss": "^7.0.35",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2",
-    "three": "^0.124.0",
+    "three": "^0.126.1",
     "vue": "^2.6.11"
   },
   "devDependencies": {

@@ -40,7 +40,6 @@ body,
 }
 
 div.paginated-el {
-  background-color: blue;
   color: white;
   width: 6em;
   height: 6em;

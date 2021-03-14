@@ -7,16 +7,17 @@
     </b-row>
 
     <b-row class="h-4/6">
-      <b-col cols="8" class="bg-gray-400">
-        <Character />
+      <b-col cols="8">
+        <Character :animation="currentAnimation" />
       </b-col>
       <b-col cols="4">
         <div class="h-1/2 flex flex-col items-center justify-center">
           <div class="text-gray-700 p-2">
-            {{ currentVariation + 1 }} / {{ params.variations.length }}
+            {{ currentVariation + 1 }} /
+            {{ params.variations.length }}
           </div>
           <div class="text-gray-700">
-            {{ params.variations[currentVariation] }}
+            {{ params.variations[currentVariation].name }}
           </div>
         </div>
 
@@ -89,7 +90,8 @@ export default {
       transition: 3,
       timer: this.params.timer,
       currentVariation: 0,
-      playing: true
+      playing: true,
+      currentAnimation: "Idle"
     };
   },
   mounted() {
@@ -117,11 +119,17 @@ export default {
         function() {
           if (this.playing) {
             this.timer -= 1;
+            this.currentAnimation = this.params.variations[
+              this.currentVariation
+            ].animation;
+          } else {
+            this.currentAnimation = "Idle";
           }
 
           if (this.timer < 0) {
             clearInterval(interval);
             this.currentVariation += 1;
+            this.currentAnimation = "Idle";
 
             if (this.currentVariation < this.params.variations.length) {
               this.timer = this.params.timer;
